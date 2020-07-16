@@ -1,6 +1,8 @@
 {
     "name": "sidspears69/myenv",
     "type": "library",
+    "license" : "proprietary",
+    "description": "Пакет для работы с .env файлами.",
     "authors": [
         {
             "name": "Ivan Bessalov",
@@ -10,5 +12,8 @@
     "minimum-stability": "dev",
     "require": {
         "vlucas/phpdotenv": "^5.1"
+    },
+    "autoload": {
+        "classmap": ["src"]
     }
 }
