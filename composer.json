@@ -1,0 +1,14 @@
+{
+    "name": "ivan/myenv",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ivan Bessalov",
+            "email": "iwan.bessalov@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "^5.1"
+    }
+}
