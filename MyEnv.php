@@ -1,6 +1,6 @@
 <?php
 
-namespace ivan\myenv;
+namespace sidspears69\myenv;
 
 class MyEnv
 {
