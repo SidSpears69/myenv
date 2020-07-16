@@ -7,7 +7,8 @@
             "email": "iwan.bessalov@yandex.ru"
         }
     ],
-    "minimum-stability": "dev",
+    "version": "1.0.0"
+    "minimum-stability": "stable",
     "require": {
         "vlucas/phpdotenv": "^5.1"
     }
