@@ -7,7 +7,6 @@ use Dotenv\Dotenv;
 class MyEnv
 {
     private static function loadEnv($dir) {
-        var_dump($dir);
         $dotenv = Dotenv::createImmutable($dir);
         $dotenv->load();
     }
@@ -21,7 +20,6 @@ class MyEnv
             self::loadEnv($dir);
         };
         foreach(glob($dir . '/*/') as $files) {
-            var_dump($files);
             if (!pathinfo($files, PATHINFO_EXTENSION)) {
                 self::findAllEnv($files);
             }
